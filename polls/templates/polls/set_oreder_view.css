@@ -1,0 +1,120 @@
+.body-5yger {
+  display: block;
+}
+
+.div-1lw8m {
+  text-align: center;
+}
+
+.main-powy8 {
+  text-align: center;
+}
+
+.div-29f8a {
+  text-align: center;
+}
+
+.div-nuobn {
+  text-align: center;
+  position: absolute;
+}
+
+.span-uzteq {
+  position: sticky;
+}
+
+div-nuobn {
+  position: absolute;
+  font-size: 40px;
+  letter-spacing: 400px;
+  text-indent: 400px;
+  color: #862323;
+}
+
+.button-b6re1 {
+  position: relative;
+}
+
+.heading6-n0e2k {
+  display: inline;
+}
+
+.heading6-cgk8p {
+  display: inline;
+}
+
+.link-j3veq {
+  color: #0ea5e9;
+}
+
+.link-80col {
+  color: #0ea5e9;
+}
+
+.label-1dc7s {
+  display: inline;
+}
+
+.div-a0o9m {
+  display: inline;
+}
+
+.div-q26t1 {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .div-dersl {
+    text-align: center;
+    position: relative;
+    top: 500px;
+  }
+
+  .button-dgrt6 {
+    height: 40px;
+    background-color: #00f5ff;
+  }
+
+  .button-b6re1 {
+    height: 40px;
+    top: 15px;
+    color: #000000;
+    background-color: #00f5ff;
+  }
+
+  .div-xex52 {
+    display: inline;
+  }
+
+  .heading6-n0e2k {
+    display: inline;
+  }
+
+  .heading4-mh9ua {
+    display: inline;
+    position: relative;
+    left: 250px;
+  }
+
+  .heading6-cgk8p {
+    display: inline;
+    position: relative;
+    left: 380px;
+  }
+}
+
+@media (max-width:768px) {
+  .div-kb234 {
+    text-align: center;
+  }
+
+  .button-4tjx4 {
+    position: relative;
+    right: 10px;
+  }
+
+  .button-8no5r {
+    position: relative;
+    left: 10px;
+  }
+}
