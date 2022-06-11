@@ -5,5 +5,6 @@ from django.template import loader
 from django.urls import reverse
 from django.views import generic
 
-def index(requests):
-  return render(requests, 'start_view.html')
+def index(request):
+  return render(request, 'polls/start_view.html')
+
