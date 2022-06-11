@@ -1,0 +1,50 @@
+iframe {
+}
+
+table {
+	border: 1px solid #333;
+	font-size: 14px;
+}
+
+td {
+	border: 1px solid #333;
+	text-align: center;
+	padding: 8px 10px;
+	font-size: 16px;
+}
+
+.class0 {
+	width: 96vw;
+	height: 100vh;
+}
+
+.classTop {
+	height: 80px;
+}
+
+.classBody {
+	display: flex;
+	flex-direction: row;
+}
+
+.classLeft {
+	width: 500px;
+	height: 620px;
+}
+
+.classRight {
+	height: 600px;
+}
+
+.classErrorMessage {
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+}
+
+.btnSubmit {
+	width: 200px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 20px;
+}

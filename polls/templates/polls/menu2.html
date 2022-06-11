@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>団体戦のオーダー入力</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./test.css">
+  </head>
+
+<body>
+<table border="1">
+        <col span="1" class="colName">
+        <col span="1" class="colAge">
+        <col span="1" bgcolor="#00FF00" class="col6Ds">
+        <col span="1" class="col6S">
+        <col span="1" class="col5D">
+        <col span="1" class="col5S">
+        <col span="1" class="col4S">
+
+	<thead>
+	<tr>
+		<th rowspan="2">選手名</th>
+		<th rowspan="2">学年</th>
+		<th colspan="2">６年</th>
+		<th colspan="2">５年</th>
+		<th>４年</th>
+		<th rowspan="2"></th>
+	</tr>
+	<tr>
+		<th>D</th>	<th>S</th>
+		<th>D</th>	<th>S</th>
+		<th>S</th>
+	</tr>
+	</thead>
+	<tbody>
+
+	<tr>	<td>金沢 太郎</td>	<td>6</td>
+	<td><input type="radio" name="btn1" value="6D" onclick="onClick()" checked></td>
+	<td><input type="radio" name="btn1" value="6S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn1" value="5D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn1" value="5S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn1" value="4S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn1" value="NO" onclick="onClick()"></td>
+	</tr>
+
+	<tr>	<td>金沢 次郎</td>	<td>6</td>
+	<td><input type="radio" name="btn2" value="6D" onclick="onClick()" checked></td>
+	<td><input type="radio" name="btn2" value="6S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn2" value="5D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn2" value="5S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn2" value="4S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn2" value="NO" onclick="onClick()"></td>
+	</tr>
+
+	<tr>	<td>金沢 三郎</td>	<td>6</td>
+	<td><input type="radio" name="btn3" value="6D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn3" value="6S" onclick="onClick()" checked></td>
+	<td><input type="radio" name="btn3" value="5D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn3" value="5S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn3" value="4S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn3" value="NO" onclick="onClick()"></td>
+	</tr>
+
+	<tr>	<td>金沢 四郎</td>	<td>5</td>
+	<td><input type="radio" name="btn4" value="6D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn4" value="6S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn4" value="5D" onclick="onClick()" checked></td>
+	<td><input type="radio" name="btn4" value="5S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn4" value="4S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn4" value="NO" onclick="onClick()"></td>
+	</tr>
+
+	<tr>	<td>金沢 伍郎</td>	<td>5</td>
+	<td><input type="radio" name="btn5" value="6D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn5" value="6S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn5" value="5D" onclick="onClick()" checked></td>
+	<td><input type="radio" name="btn5" value="5S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn5" value="4S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn5" value="NO" onclick="onClick()"></td>
+	</tr>
+
+	<tr>	<td>金沢 六郎</td>	<td>5</td>
+	<td><input type="radio" name="btn6" value="6D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn6" value="6S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn6" value="5D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn6" value="5S" onclick="onClick()" checked></td>
+	<td><input type="radio" name="btn6" value="4S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn6" value="NO" onclick="onClick()"></td>
+	</tr>
+
+	<tr>	<td>金沢 七郎</td>	<td>4</td>
+	<td><input type="radio" name="btn7" value="6D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn7" value="6S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn7" value="5D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn7" value="5S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn7" value="4S" onclick="onClick()" checked></td>
+	<td><input type="radio" name="btn7" value="NO" onclick="onClick()"></td>
+	</tr>
+
+	<tr>	<td>金沢 八郎</td>	<td>4</td>
+	<td><input type="radio" name="btn8" value="6D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn8" value="6S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn8" value="5D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn8" value="5S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn8" value="4S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn8" value="NO" onclick="onClick()" checked></td>
+	</tr>
+
+	<tr>	<td>金沢 九郎</td>	<td>4</td>
+	<td><input type="radio" name="btn9" value="6D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn9" value="6S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn9" value="5D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn9" value="5S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn9" value="4S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn9" value="NO" onclick="onClick()" checked></td>
+	</tr>
+
+	<tr>	<td>金沢 十郎</td>	<td>4</td>
+	<td><input type="radio" name="btn10" value="6D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn10" value="6S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn10" value="5D" onclick="onClick()"></td>
+	<td><input type="radio" name="btn10" value="5S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn10" value="4S" onclick="onClick()"></td>
+	<td><input type="radio" name="btn10" value="NO" onclick="onClick()" checked></td>
+	</tr>
+
+	</tbody>
+
+</table>
+<div class="classErrorMessage" id="textErrorMessage"></div>
+<p>
+	<input class="btnSubmit" id="btnSubmit1" type="button" value="送　　信" onclick="onSubmit()" disabled="disabled">
+</p>
+
+<script type="text/javascript">
+
+	const strTeamName = "□◇□◇ジュニア";
+
+	let nIndex_6D_1 = -1;
+	let nIndex_6D_2 = -1;
+	let nIndex_6S = -1;
+	let nIndex_5D_1 = -1;
+	let nIndex_5D_2 = -1;
+	let nIndex_5S = -1;
+	let nIndex_4S = -1;
+	let strErrorMessage = "";
+
+	function onClick() {
+		const btnSubmit1 = document.getElementById('btnSubmit1');
+		const textErrorMessage = document.getElementById('textErrorMessage');
+		if( getCheckedButtons() ) {
+			btnSubmit1.disabled = false;
+			textErrorMessage.innerHTML = "";
+		} else {
+			btnSubmit1.disabled = true;
+			textErrorMessage.innerHTML = strErrorMessage;
+			console.log(strErrorMessage);
+		}
+	}
+
+	function onSubmit() {
+		console.log("onSubmit enter");
+
+		if( getCheckedButtons() == false ) {
+			alert( strErrorMessage );
+			return;
+		}
+
+		//curl -X POST -H "Content-Type: application/json" -d '{"value1":"aaa","value2":"bbb","value3":"ccc"}' https://maker.ifttt.com/trigger/OrderDan/with/key/dcNGX98TVMd3GJuZl7lX8Y
+
+		const xhr = new XMLHttpRequest();
+if( false ) {
+		xhr.open( 'POST', 'https://maker.ifttt.com/trigger/OrderDan/with/key/dcNGX98TVMd3GJuZl7lX8Y', true );
+//'Access-Control-Allow-Origin:', 'https://chuojr.web.fc2.com'
+		xhr.setRequestHeader( 'content-type', 'application/json' );
+		xhr.send( '{"value1":"' + 'GT4-A-1' + '","value2":"' + strTeamName + '","value3":"' + nIndex_6D_1  + '_' + nIndex_6D_2 + '_' + nIndex_6S + '_' + nIndex_5D_1  + '_' + nIndex_5D_2 + '_' + nIndex_5S + '_' + nIndex_4S + '"}' );
+		console.log( "POST: https://maker.ifttt.com/trigger/OrderDan/with/key/dcNGX98TVMd3GJuZl7lX8Y" );
+}
+if( true ) {
+		let strRequest = "https://maker.ifttt.com/trigger/OrderDan/with/key/dcNGX98TVMd3GJuZl7lX8Y";
+		strRequest = strRequest + "?value1=" + "GT4-A-1";
+		strRequest = strRequest + "&value2=" + strTeamName;
+		strRequest = strRequest + "&value3=" + nIndex_6D_1  + '_' + nIndex_6D_2 + '_' + nIndex_6S + '_' + nIndex_5D_1  + '_' + nIndex_5D_2 + '_' + nIndex_5S + '_' + nIndex_4S;
+		xhr.open( 'GET', strRequest, true );
+//		xhr.setRequestHeader( 'accept', 'text/html' );
+		xhr.setRequestHeader( 'content-type', 'application/x-www-form-urlencoded' );
+//'Access-Control-Allow-Origin:', 'https://chuojr.web.fc2.com'
+		xhr.send();
+}
+		console.log("onSubmit end");
+		return;
+	}
+
+	function getCheckedButtons() {
+
+		nIndex_6D_1 = -1;
+		nIndex_6D_2 = -1;
+		nIndex_6S = -1;
+		nIndex_5D_1 = -1;
+		nIndex_5D_2 = -1;
+		nIndex_5S = -1;
+		nIndex_4S = -1;
+		strErrorMessage = "";
+
+		if( getCheckedButton('btn1', 0) == false ) {
+			return false;
+		}
+		if( getCheckedButton('btn2', 1) == false ) {
+			return false;
+		}
+		if( getCheckedButton('btn3', 2) == false ) {
+			return false;
+		}
+		if( getCheckedButton('btn4', 3) == false ) {
+			return false;
+		}
+		if( getCheckedButton('btn5', 4) == false ) {
+			return false;
+		}
+		if( getCheckedButton('btn6', 5) == false ) {
+			return false;
+		}
+		if( getCheckedButton('btn7', 6) == false ) {
+			return false;
+		}
+		if( getCheckedButton('btn8', 7) == false ) {
+			return false;
+		}
+		if( getCheckedButton('btn9', 8) == false ) {
+			return false;
+		}
+		if( getCheckedButton('btn10', 9) == false ) {
+			return false;
+		}
+		if( (nIndex_6D_1 == -1) || (nIndex_6D_2 == -1) ) {
+			strErrorMessage = '６年生ダブルスを指定してください';
+const col = document.getElementsByClassName('col6D');
+col.bgcolor = "#ff0000";
+
+			return false;
+		}
+		if( nIndex_6S == -1 ) {
+			strErrorMessage = '６年生シングルスを指定してください';
+			return false;
+		}
+		if( (nIndex_5D_1 == -1) || (nIndex_5D_2 == -1) ) {
+			strErrorMessage = '５年生ダブルスを指定してください';
+			return false;
+		}
+		if( nIndex_5S == -1 ) {
+			strErrorMessage = '５年生シングルスを指定してください';
+			return false;
+		}
+		if( nIndex_4S == -1 ) {
+			strErrorMessage = '４年生シングルスを指定してください';
+			return false;
+		}
+
+		console.log('選択されているのは ' + nIndex_6D_1  + '_' + nIndex_6D_2 + '_' + nIndex_6S + '_' + nIndex_5D_1  + '_' + nIndex_5D_2 + '_' + nIndex_5S + '_' + nIndex_4S + '"' );
+
+		return true;
+	}
+
+	function getCheckedButton(strButtonName, nIndex) {
+
+		let btn = document.getElementsByName(strButtonName);
+		for (let i = 0; i < btn.length; i++) {
+			if( btn.item(i).checked ) {
+				switch( btn.item(i).value ) {
+					case "6D":
+						if( nIndex_6D_1 == -1 ) {
+							nIndex_6D_1 = nIndex;
+							return true;
+						}
+						if( nIndex_6D_2 == -1 ) {
+							nIndex_6D_2 = nIndex;
+							return true;
+						}
+						strErrorMessage = '６年生ダブルスが多すぎます';
+						return false;
+
+					case "6S":
+						if( nIndex_6S == -1 ) {
+							nIndex_6S = nIndex;
+							return true;
+						}
+						strErrorMessage = '６年生シングルスが多すぎます';
+						return false;
+
+					case "5D":
+						if( nIndex_5D_1 == -1 ) {
+							nIndex_5D_1 = nIndex;
+							return true;
+						}
+						if( nIndex_5D_2 == -1 ) {
+							nIndex_5D_2 = nIndex;
+							return true;
+						}
+						strErrorMessage = '５年生ダブルスが多すぎます';
+						return false;
+
+					case "5S":
+						if( nIndex_5S == -1 ) {
+							nIndex_5S = nIndex;
+							return true;
+						}
+						strErrorMessage = '５年生シングルスが多すぎます';
+						return false;
+
+					case "4S":
+						if( nIndex_4S == -1 ) {
+							nIndex_4S = nIndex;
+							return true;
+						}
+						strErrorMessage = '４年生シングルスが多すぎます';
+						return false;
+
+				} //end of switch( btn.item(i).value )
+
+			} //end of if( btn.item(i).checked )
+
+		} //end of for (let i = 0; i < btn.length; i++)
+
+		return true;
+	}
+
+</script>
+
+</body>
+
+</html>
