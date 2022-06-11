@@ -5,7 +5,5 @@ from django.template import loader
 from django.urls import reverse
 from django.views import generic
 
-from .models import Choice, Question
-
 def index(requests):
   return render(requests, 'start_view.html')

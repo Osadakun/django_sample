@@ -3,21 +3,26 @@ import datetime
 from django.db import models
 from django.utils import timezone
 
-class Question(models.Model):
-  question_text = models.CharField(max_length=200)
-  pub_date = models.DateTimeField('date published')
+class Team(models.Model):
+  team_name = models.CharField(max_length=20)
+  member1 = models.CharField(max_length=20)
+  member2 = models.CharField(max_length=20)
+  member3 = models.CharField(max_length=20)
+  member4 = models.CharField(max_length=20)
+  member5 = models.CharField(max_length=20)
+  member6 = models.CharField(max_length=20)
+  member7 = models.CharField(max_length=20)
+  member8 = models.CharField(max_length=20)
+  member9 = models.CharField(max_length=20)
+  member10 = models.CharField(max_length=20)
 
-  def __str__(self):
-    return self.question_text
-
-  def was_published_recently(self):
-    return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
-
-
-class Choice(models.Model):
-  question = models.ForeignKey(Question, on_delete=models.CASCADE)
-  choice_text = models.CharField(max_length=200)
-  votes = models.IntegerField(default=0)
-
-  def __str__(self):
-    return self.choice_text
+class Order(models.Model):
+  team_name = models.CharField(max_length=20)
+  enemy_name = models.CharField(max_length=20)
+  singel_6 = models.CharField(max_length=20)
+  double_6_1 = models.CharField(max_length=20)
+  double_6_2 = models.CharField(max_length=20)
+  double_5 = models.CharField(max_length=20)
+  double_5_1 = models.CharField(max_length=20)
+  double_5_2 = models.CharField(max_length=20)
+  double_4 = models.CharField(max_length=20)
